@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 15px;
     margin-top: 90px;
     padding-bottom: 90px;
     width: 100%;
@@ -80,7 +79,7 @@
 
 
 #team .team-inner .team-inner-content .team-inner-content-description {
-    text-align: left;
+    text-align: center;
     padding: 15px;
     width: 100%;
     height: min-content;
@@ -161,7 +160,6 @@
 
 
 
-
 @media (min-width: 64rem) {
     #team .team-inner {
         padding: 0 6rem;
@@ -171,6 +169,9 @@
         align-items: flex-start;
     }
     #team .team-inner .team-inner-content .team-inner-content-title {
+        text-align: left;
+    }
+    #team .team-inner .team-inner-content .team-inner-content-description {
         text-align: left;
     }
 }

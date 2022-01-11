@@ -7,6 +7,8 @@ font-family: 'Raleway', sans-serif;
 @import url("header.css");
 @import url("feature.css");
 @import url("team.css");
+@import url("signin.css");
+@import url("footer.css");
 
 
 * {
